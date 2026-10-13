@@ -1,0 +1,7 @@
+Model,ROC-AUC,PR-AUC,Precision,Recall,F1,Expected cost
+Logistic Regression,0.9083,0.7482,0.6383,0.73,0.6811,3899
+Decision Tree,0.9023,0.7032,0.6154,0.7538,0.6776,3917
+Random Forest,0.9101,0.7513,0.6361,0.7382,0.6834,3853
+LightGBM (no weights),0.9077,0.7486,0.6592,0.7,0.679,3849
+LightGBM (class weight),0.9096,0.7521,0.6311,0.7419,0.682,3865
+LightGBM (tuned),0.91,0.7529,0.6428,0.7304,0.6838,3824
